@@ -1,0 +1,77 @@
+<?php
+
+echo "yazılım yolcuları <br>";
+
+print("Merhaba<br>");
+
+
+# merhaba burası yorum satırıdır
+
+// merhaba burası yorum satırıdır
+
+/*
+Merhaba burası yorum satırıdır
+*/
+
+
+$yazilim=5; //değişken oluşturduk
+echo "<br>";
+echo $yazilim ; //değişkeni ekranda yazdık
+
+echo"<br>";
+
+#matematik işlemleri
+#-----------------------------------------------------------
+$sayi1=5;
+$sayi2=20;
+$sayi3=30;
+$sayi4=50;
+
+
+$sayitoplam=$sayi1+$sayi2;
+
+echo $sayitoplam;
+
+
+echo " <br><br> ";
+
+
+echo " Merhaba \"ben ters slaşım\" beni böyle kullanabilirsin    ";
+
+
+#koşul if-else
+#-------------------------------------------------
+
+/*
+if (koşul) {
+	sonuç ya da yapacağımız işlem
+
+}
+*/
+
+echo "<br>"; //alt satıra geçtik
+
+$asayisi=10;
+$bsayisi=5;
+
+if ($bsayisi==10) {        // if b sayısı 10 a eşit mi
+	
+	echo "doğru";          // ekrana doğru yaz
+}
+elseif($bsayisi==5) {      // elseif b sayısı 5 e eşitse
+
+    echo "sayı 5 eşit";    // ekrana sayı 5 eşit yaz
+}
+else{                // else b sayısı 10 veya 5 e eşit değilse
+
+	echo "eşit değil";      // ekrana eşit değil yaz
+}
+                               // ! = eşit değildir
+ 
+
+
+
+
+
+
+?>
